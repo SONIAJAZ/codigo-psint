@@ -1,0 +1,18 @@
+Algoritmo cualeselnumeromayor
+	Definir n1, n2, n3 Como Real
+	Escribir "ingresa el valor de un primer número:";
+	Leer n1;
+	Escribir "ingresa el valor de un segundo número:";
+	Leer n2;
+	Escribir "ingresa el valor de un tercer número:";
+	Leer n3;
+	si (n1>n2) & (n1>n3) Entonces
+		Escribir "el número mayor es: ", n1;
+	FinSi
+	si (n2>n1) & (n2>n3) Entonces
+		Escribir "el número mayor es: ", n2;
+	FinSi
+	si (n3>n1) & (n3>n2) Entonces
+			Escribir "el número mayor es: ", n3;
+	FinSi
+FinAlgoritmo

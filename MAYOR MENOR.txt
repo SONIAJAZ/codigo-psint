@@ -1,0 +1,14 @@
+Algoritmo NUEROSMAYORMENOR
+	Definir a,b Como Entero
+	Escribir "Escribe dos numeros"
+	leer a,b
+	si a == b Entonces
+		Escribir "Los numeros son iguales"
+	SiNo
+		si a > b Entonces
+			Escribir "El numero mayor es: ",a
+		SiNo
+			Escribir "EL numero mayor es: ",b
+		FinSi
+	FinSi	
+FinAlgoritmo

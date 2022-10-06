@@ -1,0 +1,12 @@
+Algoritmo sueldo
+	Definir s, he, pd,sumar,multiplicar Como Entero
+	Escribir "ingresa el sueldo: ";
+	Leer s;
+	Escribir "ingresa horas extra: ";
+	Leer he;
+	Escribir "ingresa horas ´pagadas extra";
+	Leer pd;
+	sumar=s+he;
+	multiplicar =sumar*pd;
+	Escribir "el resultado es:", sumar, ",",multiplicar;
+FinAlgoritmo
